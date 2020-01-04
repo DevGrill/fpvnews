@@ -30,6 +30,28 @@
   margin-bottom: 55%;
   height: 1100px;
 </style>
+<style>
+.textanimation_stil {
+font-size: 40px;
+color: aqua;
+font-weight: 700;
+}
+.textanimation_text:before {
+        content: '<font color="0000FF">Liveticker </font>';
+	animation: animate infinite 8s;
+}
+@keyframes animate 
+{
+	0%
+	{
+		content: '<font color="0000FF">Liveticker </font>';
+	}
+		10%
+	{
+		content: '<font color="FF0000">Liveticker </font>';
+	}
+}
+</style>
 <div id="body">
 <font color="0000FF" size="6pt">
 <font size="20pt" color="0000FF"><p align="center" class="blackbox">Fpv News<br></font>
@@ -37,10 +59,12 @@
 <a href="http://fpvnews.ch/" style="color: red">Home</a>	</p>
 </font>
 <br>
+<div class="textanimation_text">
 <table border="0" align="center">
 <td><font color="00FF00" size="6" face = "Agency FB">
 <h2>Liveticker</h2></td></font>
 </table>
+</div>
 <table border="2" bordercolor="#000099" align="center" width="650" height="500">
 <font color="000000" size="8" face = "Agency FB">
 <tr height="18">

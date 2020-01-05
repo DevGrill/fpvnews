@@ -38,6 +38,10 @@
 <a href="http://fpvnews.ch/" style="color: red">Home</a>	</p>
 </font>
 <br>
+var hiddenBox = $( "#banner-message" );
+$( "#button-container button" ).on( "click", function( event ) {
+  hiddenBox.show();
+});
 <table border="0" align="center">
 <td onload="blinktext();"><font color="00FF00" size="6" face = "Agency FB">
 <h2><p id="announcement">Liveticker</p></h2></td></font>

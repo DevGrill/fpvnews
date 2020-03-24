@@ -1,0 +1,63 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<link rel="shortcut icon" type="image/x-icon" href="fpvstars.jpg"" />
+<title>SDL Absage</title>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</head>
+<body bgcolor="FFFFFF" size="6pt">
+<style>
+.blackbox {
+   background-color: #000000;
+   color: white;
+   padding: 15px;
+   margin: 0;
+   width: 100%;
+}
+</style>
+<style>
+#fussbereich {
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    background-color: yellow;
+    height: 2em;
+}
+</style>
+<style>
+#body {
+  background-color: white;
+  margin-bottom: 55%;
+  height: 1100px;
+</style>
+<div id="body">
+<font color="0000FF" size="6pt">
+<font size="20pt" color="0000FF"><p align="center" class="blackbox"><img src="fpvnews.png" width="400" height="100"><br></font>
+<font color="FFFFFF"> <p align="center" class="blackbox"> Renn Stall <br>
+<a href="index.html" style="color: red">Home</a>	</p>
+</font>
+<br>
+<table border="1" align="center" width=700>
+<td><font color="blue" size="6" face = "Agency FB">
+<h2>SDL sperrt die ersten 2. Rennen</h2>
+<font color="000000" size="6" face = "Agency FB">
+<h5>Die Swiss drone league sagt die ersten 2. Rennen ab.
+<br>Der Coronavirus macht nicht nur den Restaurants zu schaffen. 
+<br>Der Coronavirus macht auch den race Piloten zu schaffen.
+<br>Die SDL wurde mit bedauern abgesagt, wie die SDL auf Instagram mitteilte.
+<br>
+<a href="http://swissdroneleague.ch/absage-sdl-rennen-in-st-gallen-und-lugano.html" target="_blank"><img src="SDLabsage.jpg" height="100px" width="100px"></a>
+</h5>
+</font>
+</td>
+</table>  
+
+</div>
+<div id="fussbereich">
+<p align="center" size="4pt" class="blackbox"><font color="000000"><a href="https://www.youtube.com/channel/UCTQfNZxQelxYEvZaem3cogw?view_as=subscriber" target="_blank"><img src="YTLOGO.png" /></a>-------
+<a href="https://www.instagram.com/goblin_fpv/" target="_blank"><img src="Instagram.png" /></a>-------
+<a href="https://discord.gg/HRcA9DC" target="_blank"><img src="Discord.png" /></a>-------								   
+</p>
+</div>
+</body>
+</html>
